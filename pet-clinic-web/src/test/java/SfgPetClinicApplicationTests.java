@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import sfgpetclinic.SfgPetClinicApplication;
+import guru.springframework.sfgpetclinic.SfgPetClinicApplication;
 
 @SpringBootTest(classes = SfgPetClinicApplication.class)
 class SfgPetClinicApplicationTests {

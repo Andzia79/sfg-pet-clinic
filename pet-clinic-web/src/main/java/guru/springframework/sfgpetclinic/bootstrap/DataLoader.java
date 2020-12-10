@@ -1,4 +1,4 @@
-package sfgpetclinic.bootstrap;
+package guru.springframework.sfgpetclinic.bootstrap;
 
 import guru.springframework.sfgpetclinic.model.Owner;
 import guru.springframework.sfgpetclinic.model.Vet;
@@ -13,7 +13,7 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private  final VetService vetService;
-@Autowired
+//@Autowired
     public DataLoader(OwnerService ownerService, VetService vetService) {
 
         this.ownerService = ownerService;

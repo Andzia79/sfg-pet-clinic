@@ -1,4 +1,4 @@
-package sfgpetclinic.controllers;
+package guru.springframework.sfgpetclinic.controllers;
 
 import guru.springframework.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
